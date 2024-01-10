@@ -22,10 +22,22 @@ public class Main {
         dog.setColor("Wite");
 
 
-        System.out.println("Information about the fish:\n" + "Name: " + fish.getName() + "\n" + "Age: " + fish.getAge() + "\n" + "Color: " + fish.getColor() + "\n");
-        System.out.println("Information about the parrot:\n" + "Name: " + parrot.getName() + "\n" + "Age: " + parrot.getAge() + "\n" + "Color: " + parrot.getColor() + "\n");
-        System.out.println("Information about the cat:\n" + "Name: " + cat.getName() + "\n" + "Age: " + cat.getAge() + "\n" + "Color: " + cat.getColor() + "\n");
-        System.out.println("Information about the dog:\n" + "Name: " + dog.getName() + "\n" + "Age: " + dog.getAge() + "\n" + "Color: " + dog.getColor());
+        System.out.println("Information about the fish:\n" +
+                           "Name: " + fish.getName() + "\n" + 
+                           "Age: " + fish.getAge() + "\n" + 
+                           "Color: " + fish.getColor() + "\n");
+        System.out.println("Information about the parrot:\n" + 
+                           "Name: " + parrot.getName() + "\n" +
+                           "Age: " + parrot.getAge() + "\n" + 
+                           "Color: " + parrot.getColor() + "\n");
+        System.out.println("Information about the cat:\n" + 
+                           "Name: " + cat.getName() + "\n" + 
+                           "Age: " + cat.getAge() + "\n" +
+                           "Color: " + cat.getColor() + "\n");
+        System.out.println("Information about the dog:\n" +
+                           "Name: " + dog.getName() + "\n" +
+                           "Age: " + dog.getAge() + "\n" + 
+                           "Color: " + dog.getColor());
 
 
     }
